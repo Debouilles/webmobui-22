@@ -56,7 +56,7 @@ function displaySection(){
       try {
       const response = await fetch('https://webmob-ui-22-spotlified.herokuapp.com/api/artists')
       const artistes = response.json()
-      const artist = artistes[0]
+      const artists = artistes[0]
       }
       catch (e) {
           alert('Il y a eu un problème')
@@ -66,5 +66,12 @@ function displaySection(){
       }
   }
 
-  afficherArtiste()
-  afficherArtistes()
+  async function chargerArtistes() {
+    const response = await fetch('https://webmob-ui-22-spotlified.herokuapp.com/api/artists')
+    const json = await response.json()
+    return json
+  }
+   
+  chargerArtistes();
+
+  afficherArtiste();
