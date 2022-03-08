@@ -10,11 +10,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow :1;
 }
 
 header {
   width: 100%;
   background: #ff00ff;
+  justify-content: space-between;
+  flex-direction: row;
+  
+
 }
 
 main {
@@ -28,3 +33,4 @@ footer {
   width: 100%;
   background: #00ffff;
 }
+

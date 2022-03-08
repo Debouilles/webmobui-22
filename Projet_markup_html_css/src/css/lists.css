@@ -25,7 +25,7 @@ ul.list li:hover {
 
 ul.list li:first-of-type {
   /* on affiche un border top uniquement sur le premier élément */
-  border-top: 1px solid var(--border-color);
+  border-top: 2px solid var(--border-color);
 }
 
 /* un lien est optionnellement supporté. Il doit donc prendre toute la place et devenir lui-même une flex box
