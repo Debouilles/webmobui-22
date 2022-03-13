@@ -19,7 +19,7 @@ async function getSongsForArtist(id) {
   return await loadJson(`${BASE_URL}/api/artists/${id}/songs`)
 }
 
-// Retourne un résultaat de recherche
+// Retourne un résultat de recherche
 async function searchSongs(query) {
   return await loadJson(`${BASE_URL}/api/songs/search/${encodeURIComponent(query)}`)
 }
