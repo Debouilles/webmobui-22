@@ -45,4 +45,8 @@ async function renderSearchSongsSection(query) {
     renderSongs(songs)
 }
 
+// function renderFavoritesSongsSection() {
+
+// }
+
 export {renderSearchSongsSection, renderSongsSection}

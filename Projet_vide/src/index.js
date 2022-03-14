@@ -1,9 +1,9 @@
 import './css/index.css'
-import {domOn, domForEach} from '.lib/domManipulator'
-import {renderArtistsSection} from './section/artists'
+//import {domOn, domForEach} from './lib/domManipulator'
+import {renderArtistsSection} from './sections/artists'
 import {renderSongsSection, renderSearchSongsSection} from './sections/songs'
-import './section/player'
-import './section/search'
+import './sections/player'
+import './sections/search'
 
 
 function toggleSection(section){
