@@ -11,6 +11,6 @@ searchInput.addEventListener('blur', () => {
 })
 
 searchInput.addEventListener('input', () => {
-    window.location.hash = `#search-${encodeURIComponent(searchInput.value)}`
+    window.location.hash = `#search-${encodeURIComponent(searchInput.value)}` //searchInput change l'URL avec l'input
 })
 

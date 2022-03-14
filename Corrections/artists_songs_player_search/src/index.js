@@ -1,5 +1,5 @@
 import './css/index.css'
-import { domOn, domForEach } from './lib/domManipulator'
+//import { domOn, domForEach } from './lib/domManipulator'
 
 import renderArtistsSection from './sections/artists'
 import { renderSongsSection, renderSearchSongsSection } from './sections/songs'

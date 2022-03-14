@@ -3,7 +3,7 @@ import {getArtists} from '../api'
   const artistList = document.querySelector('.artist-list')
   const artistListItemTemplate = document.querySelector('.artist-list-item-template')
 
-  function renderArtistsSection(artist){
+  function renderArtist(artist){
       const newArtist = artistListItemTemplate.content.cloneNode(true)
       newArtist.querySelector('a').href = '#artists-' + artist.id
       newArtist.querySelector('img').src == artist.image_url

@@ -19,7 +19,6 @@ function renderArtist(artist) {
 function renderArtists(artists) {
   // On vide la liste
   artistList.replaceChildren()
-
   // On itère sur le tableau pour les insérer dans la liste
   for(const artist of artists) {
     renderArtist(artist)
