@@ -66,12 +66,13 @@ playerPlay.addEventListener('click', () => {
 playerPrev.addEventListener('click', playPreviousSong)
 playerNext.addEventListener('click', playNextSong)
 
+//récupérer le temps de lecture s'il change
 playerProgress.addEventListener('change', (event) => {
     audioPlayer.currentTime = event.currentTarget.value
 })
 
 audioPlayer.addEventListener('durationchange', () => {
-    playerProgress.max = audioPlayer.duration
+    playerProgress.max = audioPlayer.duration //afficher le temps total de la chanson
     playerTimeDuration.innerText = formatTimestamp(audioPlayer.duration)
 })
 

@@ -51,6 +51,6 @@ async function renderSearchSongsSection(query) {
   const songs = await searchSongs(query)
   songsSectionTitle.innerText = `Résultats de recherche pour "${query}"`
   renderSongs(songs)
-}
+} 
 
 export { renderSongsSection, renderSearchSongsSection }

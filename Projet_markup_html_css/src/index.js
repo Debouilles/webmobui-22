@@ -86,7 +86,7 @@ function afficherArtiste(artiste) {
 function afficherArtistes(artises) {
   artistList.replaceChildren();
   for(const artiste of artistes)
- {
+ { 
    afficherArtiste(artiste)
  }}
 
