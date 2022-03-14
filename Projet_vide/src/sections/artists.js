@@ -23,5 +23,5 @@ async function renderArtistsSection() {
     renderArtists(artists)
 }
 
-export default {}
-  
+export default {renderArtistsSection, renderArtist}
+
