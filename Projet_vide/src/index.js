@@ -8,6 +8,8 @@ import { renderSongsSection, renderSearchSongsSection } from './sections/songs'
 import './sections/player'
 import './sections/search'
 
+
+
 function toggleSection(section) {
   // Supprime/Ajoute la classe active sur la section
   document.querySelector('section.active')?.classList.remove('active')
